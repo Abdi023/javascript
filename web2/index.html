@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="kopje">Dit is museu website</h1>
+    <p id="mkblauw">maak de achtergrond blauw</p>
+    <p id="mkGroen">maak de achtergrond blauw</p>
+    <p id="hou_op">maak de achtergrond blauw</p>
+    <p id="goh">maak de achtergrond blauw</p>
+    <script>
+        const kopje = document.getElementById("kopje");
+        const mkblauw = document.getElementById('mkblauw');
+        const mkGroen = document.getElementById('mkGroen');
+
+        kopje.style.backgroundColor = "red";
+
+        kopje.addEventListener('click',voeruitKopje);
+        mkblauw.addEventListener('click',voeruitBlauw);
+        mkGroen.addEventListener('click',voeruitGroen);
+
+        function voeruitKopje(){
+            kopje.style.backgroundColor = "yellow";
+            kopje.style.color = "black";
+        }
+
+        function voeruitBlauw(){
+            document.body.style.backgroundColor = "blue";
+            document.body.style.color = "white";
+            kopje.style.backgroundColor = "white";
+            kopje.style.color = "black";
+        }
+
+        function voeruitGroen(){
+            document.body.style.backgroundColor = "green";
+        }
+
+
+
+
+
+    </script>
+
+
+
+    
+    
+</body>
+</html>
