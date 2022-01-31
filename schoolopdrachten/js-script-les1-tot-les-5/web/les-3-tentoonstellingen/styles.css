@@ -1,0 +1,53 @@
+body {
+    background-color: aliceblue;
+    color: white;
+}
+
+#container {
+    background-color:  #000000f5;
+    width: 700px;
+    margin: auto;
+}
+
+h2	 {
+    justify-content: flex-end;
+    text-align: end;
+    margin: 20px;
+    padding: 20px;
+}
+
+#myimage img {
+    text-align: center;
+    display: flex;
+    width: 60%;
+    
+
+}
+img {
+    display: inline-block;
+    margin: 0 10px 0 0;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+
+
+#container button {
+    background-color: rgb(55, 228, 55);
+    margin-bottom: 30px;
+    position: relative;
+    
+}
+
+button {
+    justify-content: center;
+    position: relative;
+    top: 0px;
+    left: -300px;
+    
+}
+
+
+
+
+
