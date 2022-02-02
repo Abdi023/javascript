@@ -149,7 +149,7 @@ function updatedirections() {
     // haal de mogelijke directions op voor de current_index
     let possible = locaties[current_index].directions;
     // zet de directions keys in een aparte variable
-    let possible_keys = Object(possible);
+    let possible_keys = Object.keys(possible);
 
     // zet de keys van de buttons in een aparte variable
     let buttons_keys = Object.keys(directionbuttons);
